@@ -51,7 +51,11 @@
                 kq= st1 * st2;
             } 
             else if(pt == "/"){
+                if(st2  != 0){
                 kq = st1 / st2;
+            } else{
+                kq = "Khong co ket qua";
+            }
             }
             else if(pt == "Sqrt"){
                 kq = Math.sqrt(kq);
